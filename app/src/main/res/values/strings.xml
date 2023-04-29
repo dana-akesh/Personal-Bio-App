@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PersonalBioApp</string>
+    <string name="my_bio">My Bio</string>
+    <string name="add">Add</string>
+    <string name="your_name">Dana Akesh</string>
+    <string name="my_photo">my photo</string>
+    <string name="enter_hobbies">Enter hobbies</string>
+    <string name="biography">Hello Everyone!\n
+        I am an undergraduate Computer Science student,currently in my third year.\n
+        I Have an experience in Data Structures, Algorithms, and Database.\n
+        I am currently learning web development,\n
+        AI, Android Mobile development, and software engineering.\n
+        Interested in UX UI to make people life easier and give the best
+        experience possible.\n
+        Fast learner, a good leader, and great at teamwork.\n
+        I have a lot of hobbies and interested in gaming.\n
+    </string>
+</resources>

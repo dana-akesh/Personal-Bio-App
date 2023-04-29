@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    style="@style/linearLayoutStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/myBioTextView"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_bio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        style="@style/imageView"
+        android:layout_width="208dp"
+        android:layout_height="213dp"
+        android:contentDescription="@string/my_photo"
+        app:srcCompat="@drawable/download20230404184856" />
+
+    <TextView
+        style="@style/myNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_name" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/AfricanViolet" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        style="@style/editTextText"
+        android:layout_width="299dp"
+        android:layout_height="52dp"
+        android:autofillHints="Enter hobbies"
+        android:ems="10"
+        android:hint="@string/enter_hobbies"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/addButton"
+        style="@style/addButton"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:text="@string/add" />
+
+    <TextView
+        android:id="@+id/hobbiesTxtView"
+        style="@style/hobbiesTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ScrollView
+        style="@style/scrollView"
+        android:layout_width="308dp"
+        android:layout_height="171dp"
+        android:fillViewport="true">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/scrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:text="@string/biography" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+</LinearLayout>

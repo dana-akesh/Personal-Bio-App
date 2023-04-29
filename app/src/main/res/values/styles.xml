@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="linearLayoutStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@color/Alabaster</item>
+    </style>
+
+    <style name="myBioTextView">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">serif</item>
+    </style>
+
+    <style name="imageView">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="myNameTextView">
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">serif</item>
+    </style>
+
+    <style name="editTextText">
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="addButton">
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="backgroundTint">@color/Puce</item>
+        <item name="background">@android:drawable/dialog_holo_dark_frame</item>
+    </style>
+
+    <style name="hobbiesTxt">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Chocolate</item>
+        <item name="fontFamily">serif</item>
+    </style>
+
+    <style name="scrollView">
+        <item name="android:gravity">center</item>
+        <item name="fontFamily">serif</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
