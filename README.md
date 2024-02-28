@@ -9,4 +9,4 @@ A simple application on android that shows the use of the basic components in An
 </ul>
 
 <h2>Demo Video</h2>
-https://github.com/dana-akesh/World_Explorer/assets/86303193/1d9d2a58-3d03-4c55-aea8-2aaef95453bf
+<img src="https://github.com/dana-akesh/Personal-Bio-App/assets/86303193/f76119db-c6c0-4034-9a6f-f814fd6aa2e6" width="200" height="400">
